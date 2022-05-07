@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Google Search Result Favicon",
+  "version": "1.0",
+  "description": "Add favicons next to the Google Search results making it much better to recognize websites.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "js": ["./index.js"]
+    }
+  ]
+}
